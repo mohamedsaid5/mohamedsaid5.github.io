@@ -1,0 +1,17 @@
+/* Slightly tighter line-height for the dense API reference. */
+.md-typeset code { font-size: 0.85em; }
+.md-typeset pre > code { line-height: 1.55; }
+
+/* Tables: don't word-wrap parameter names. */
+.md-typeset table:not([class]) td:first-child code,
+.md-typeset table:not([class]) th:first-child code {
+  white-space: nowrap;
+}
+
+/* A bit of breathing room on the landing page hero block. */
+.md-typeset h1:first-child {
+  margin-top: 0.6rem;
+}
+
+/* Make the "tip"/"note" admonition titles a little punchier. */
+.md-typeset .admonition-title { font-weight: 600; }
